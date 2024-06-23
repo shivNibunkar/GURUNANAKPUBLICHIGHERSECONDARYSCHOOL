@@ -1,0 +1,188 @@
+body {
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    animation: moveBackground 30s linear infinite;
+}
+
+
+
+.header-content {
+    background-color: #0056b3;
+    background-image: url('assets/background.png');
+    padding: 10px 0;
+}
+
+.header-content .container {
+    display: flex;
+    background-image: url('assets/background.png');
+    justify-content: space-between;
+    align-items: center;
+}
+
+.school-logo {
+    max-height: 80px;
+}
+
+.news-marquee {
+    flex-grow: 1;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar .menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.navbar .menu-list li {
+    padding: 10px 20px;
+}
+
+.navbar .menu-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .menu-list li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.main-content .container {
+    background-image: url('assets/background.png');
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.about-section, .principal-section, .award-section, .gallery-section, .map-section, .contact-section {
+    margin-bottom: 20px;
+}
+
+.about-section h2, .principal-section h2, .award-section h2, .gallery-section h2, .map-section h2, .contact-section h2 {
+    border-bottom: 2px solid #0056b3;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+ .principal-section{
+	 background-image: url('assets/background.jpeg'); 
+ }
+ 
+.award-section{
+	 background-image: url('assets/background.jpeg'); 
+}
+
+.about-content {
+    background-image: url('assets/background.jpeg');
+    padding: 20px;
+}
+
+.about-content img {
+	 background-image: url('assets/background.j');
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.divider {
+    display: block;
+    margin: 10px auto;
+}
+
+.gallery {
+	 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.map-container iframe {
+    width: 100%;
+    border: none;
+}
+
+.contact-info {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-info p {
+
+    margin: 5px 0;
+}
+
+footer {
+    background-image: url('assets/HOME.jpg');
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-content .container {
+    display: flex;
+	color:green;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-content .footer-logo {
+    max-height: 50px;
+}
+
+.footer-content .footer-info {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content .footer-info li {
+    margin: 5px 0;
+}
+
+.footer-content h6 {
+    margin-bottom: 15px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    margin-bottom: 10px;
+}
+
+.footer-content ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content ul li a:hover {
+    text-decoration: underline;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
